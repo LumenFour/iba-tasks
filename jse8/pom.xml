@@ -24,6 +24,7 @@
   <modules>
   <module>first-last-name-app</module>
   <module>concepts-task1</module>
+  <module>variables-task</module>
   </modules>
 
   <issueManagement>
