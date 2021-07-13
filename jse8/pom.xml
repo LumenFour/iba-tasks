@@ -26,6 +26,7 @@
   <module>concepts-task1</module>
   <module>variables-task</module>
   <module>arrays-task</module>
+  <module>conversions-task</module>
   </modules>
 
   <issueManagement>
