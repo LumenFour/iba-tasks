@@ -28,6 +28,7 @@
   <module>arrays-task</module>
   <module>conversions-task</module>
   <module>operations-task-first</module>
+  <module>operators-task-two</module>
   </modules>
 
   <issueManagement>
