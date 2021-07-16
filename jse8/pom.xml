@@ -27,6 +27,7 @@
   <module>variables-task</module>
   <module>arrays-task</module>
   <module>conversions-task</module>
+  <module>operations-task-first</module>
   </modules>
 
   <issueManagement>
