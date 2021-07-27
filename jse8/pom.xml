@@ -29,6 +29,7 @@
   <module>conversions-task</module>
   <module>operations-task-first</module>
   <module>operators-task-two</module>
+  <module>operators-three-task</module>
   </modules>
 
   <issueManagement>
