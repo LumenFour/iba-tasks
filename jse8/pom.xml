@@ -30,6 +30,7 @@
   <module>operations-task-first</module>
   <module>operators-task-two</module>
   <module>operators-three-task</module>
+  <module>statements-task-1</module>
   </modules>
 
   <issueManagement>
