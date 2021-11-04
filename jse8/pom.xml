@@ -40,6 +40,7 @@
   <module>classes-teask-2</module>
   <module>packages-task1</module>
   <module>packages-task2</module>
+  <module>interfaces-task1</module>
   </modules>
 
   <issueManagement>
