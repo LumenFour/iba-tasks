@@ -42,6 +42,7 @@
   <module>packages-task2</module>
   <module>interfaces-task1</module>
   <module>interfaces-task2</module>
+  <module>interfaces-task3</module>
   </modules>
 
   <issueManagement>
