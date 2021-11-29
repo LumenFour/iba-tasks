@@ -44,6 +44,7 @@
   <module>interfaces-task2</module>
   <module>interfaces-task3</module>
   <module>inheritance-task-1</module>
+  <module>inheritance-task2</module>
   </modules>
 
   <issueManagement>
