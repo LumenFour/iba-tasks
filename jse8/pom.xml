@@ -50,6 +50,7 @@
   <module>strings-task2</module>
   <module>strings-task3</module>
   <module>exceptions-task1</module>
+  <module>exceptions-task2</module>
   </modules>
 
   <issueManagement>
