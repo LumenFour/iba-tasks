@@ -51,6 +51,7 @@
   <module>strings-task3</module>
   <module>exceptions-task1</module>
   <module>exceptions-task2</module>
+  <module>date-time-task1</module>
   </modules>
 
   <issueManagement>
