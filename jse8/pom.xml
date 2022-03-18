@@ -53,6 +53,7 @@
   <module>exceptions-task2</module>
   <module>date-time-task1</module>
   <module>date-time-task2</module>
+  <module>date-time-task3</module>
   </modules>
 
   <issueManagement>
