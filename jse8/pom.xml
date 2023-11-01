@@ -1,78 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>by.iba.gomel</groupId>
-    <artifactId>jse8-root</artifactId>
-    <version>1.0.0</version>
-  </parent>
+	<parent>
+		<groupId>by.iba.gomel</groupId>
+		<artifactId>jse8-root</artifactId>
+		<version>1.0.0</version>
+	</parent>
 
-  <groupId>by.iba.gomel.amarozau</groupId>
-  <artifactId>jse8</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+	<groupId>by.iba.gomel.amarozau</groupId>
+	<artifactId>jse8</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 
-  <name>amarozau-jse8</name>
-  <description>Solution for exercises of "Java Standard Edition (JSE) 8" OpenOLAT learning course.</description>
+	<name>amarozau-jse8</name>
+	<description>Solution for exercises of "Java Standard Edition (JSE) 8"
+		OpenOLAT learning course.</description>
 
-  <organization>
-    <name>IBA-Gomel-Park</name>
-    <url>http://www.gomel.iba.by/</url>
-  </organization>
+	<organization>
+		<name>IBA-Gomel-Park</name>
+		<url>http://www.gomel.iba.by/</url>
+	</organization>
 
-  <modules>
-  <module>first-last-name-app</module>
-  <module>concepts-task1</module>
-  <module>variables-task</module>
-  <module>arrays-task</module>
-  <module>conversions-task</module>
-  <module>operations-task-first</module>
-  <module>operators-task-two</module>
-  <module>operators-three-task</module>
-  <module>statements-task-1</module>
-  <module>statements-task-2</module>
-  <module>statements-task-4</module>
-  <module>statements-task-four</module>
-  <module>classes-task-1</module>
-  <module>objects-task-1</module>
-  <module>objects-task-2</module>
-  <module>classes-teask-2</module>
-  <module>packages-task1</module>
-  <module>packages-task2</module>
-  <module>interfaces-task1</module>
-  <module>interfaces-task2</module>
-  <module>interfaces-task3</module>
-  <module>inheritance-task-1</module>
-  <module>inheritance-task2</module>
-  <module>inheritance-task3</module>
-  <module>strings-task1</module>
-  <module>strings-task2</module>
-  <module>strings-task3</module>
-  <module>exceptions-task1</module>
-  <module>exceptions-task2</module>
-  <module>date-time-task1</module>
-  <module>date-time-task2</module>
-  <module>date-time-task3</module>
-  </modules>
+	<modules>
+		<module>first-last-name-app</module>
+		<module>concepts-task1</module>
+		<module>variables-task</module>
+		<module>arrays-task</module>
+		<module>conversions-task</module>
+		<module>operations-task-first</module>
+		<module>operators-task-two</module>
+		<module>operators-three-task</module>
+		<module>statements-task-1</module>
+		<module>statements-task-2</module>
+		<module>statements-task-4</module>
+		<module>statements-task-four</module>
+		<module>classes-task-1</module>
+		<module>objects-task-1</module>
+		<module>objects-task-2</module>
+		<module>classes-teask-2</module>
+		<module>packages-task1</module>
+		<module>packages-task2</module>
+		<module>interfaces-task1</module>
+		<module>interfaces-task2</module>
+		<module>interfaces-task3</module>
+		<module>inheritance-task-1</module>
+		<module>inheritance-task2</module>
+		<module>inheritance-task3</module>
+		<module>strings-task1</module>
+		<module>strings-task2</module>
+		<module>strings-task3</module>
+		<module>exceptions-task1</module>
+		<module>exceptions-task2</module>
+		<module>date-time-task1</module>
+		<module>date-time-task2</module>
+		<module>date-time-task3</module>
+		<module>wrappers-task1</module>
+		<module>wrappers-task2</module>
+		<module>wrappers-task3</module>
+		<module>wrappers-task4</module>
+		<module>nested-classes-task1</module>
+		<module>nested-classes-task2</module>
+		<module>nested-classes-task3</module>
+		<module>nested-classes-task4</module>
+		<module>annotations-task1</module>
+		<module>annotations-task2</module>
+		<module>annotations-task3</module>
+		<module>lambda-task1</module>
+		<module>lambda-task2</module>
+		<module>lambda-task3</module>
+		<module>assertions-task1</module>
+		<module>enum-types-task1</module>
+		<module>enum-types-task2</module>
+		<module>regular-expressions-task1</module>
+		<module>regular-expressions-task2</module>
+		<module>regular-expressions-task3</module>
+		<module>generics-task1</module>
+		<module>generics-task2</module>
+		<module>generics-task3</module>
+		<module>collections-task1</module>
+		<module>collections-task2</module>
+		<module>collections-task3</module>
+		<module>collections-task4</module>
+		<module>aggregate-operations-task1</module>
+		<module>aggregate-operations-task2</module>
+		<module>aggregate-operations-task3</module>
+		<module>basicio-task1</module>
+		<module>basicio-task2</module>
+		<module>basicio-task3</module>
+		<module>basicio-task4</module>
+		<module>concurrency-task1</module>
+		<module>concurrency-task2</module>
+		<module>concurrency-task3</module>
+		<module>i18n-task1</module>
+		<module>i18n-task2</module>
+	</modules>
 
-  <issueManagement>
-    <url>https://gml-jbpm.gomel.iba.by/sonarqube/component_issues/index?id=by.iba.gomel.amarozau%3Ajse8#resolved=false</url>
-  </issueManagement>
+	<issueManagement>
+		<url>
+			https://gml-jbpm.gomel.iba.by/sonarqube/component_issues/index?id=by.iba.gomel.amarozau%3Ajse8#resolved=false</url>
+	</issueManagement>
 
-  <ciManagement>
-    <url>https://gml-jbpm.gomel.iba.by/jenkins/job/amarozau-jse8/</url>
-    <system>Jenkins</system>
-  </ciManagement>
-  
-  <build>
-  	<plugins>
-	  <plugin>
-	  	<groupId>org.sonarsource.scanner.maven</groupId>
-	  	<artifactId>sonar-maven-plugin</artifactId>
-	  	<version>3.2</version>
-	  </plugin>
-  	</plugins>
-  </build>
-  
+	<ciManagement>
+		<url>https://gml-jbpm.gomel.iba.by/jenkins/job/amarozau-jse8/</url>
+		<system>Jenkins</system>
+	</ciManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.2</version>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
